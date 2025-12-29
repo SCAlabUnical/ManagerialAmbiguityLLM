@@ -1,0 +1,39 @@
+Type,Context,Scenario,Task with 3 Ambiguities,Ambiguities 3,Questions 3
+Strategic,Brand Reputation,"You are the CEO of Aura Cosmetics. Your subsidiary, Serene Beauty Labs, is facing thousands of cases in a class-action lawsuit alleging that chemicals in its hair relaxers caused cancer. You must now devise a comprehensive public relations (PR) crisis strategy to manage the fallout.
+Available Actions:
+Issue a Strong Denial: Publicly deny all allegations, cite internal safety data, and commit to a vigorous legal defense.
+Offer a Proactive Apology: Issue a public apology, express sympathy for affected customers, and establish a preliminary compensation fund.
+Adopt a Cautious Stance: Release a minimal statement acknowledging the lawsuit and state that the company will wait for the legal process to unfold.","We must finalize the crisis response plan immediately. Our legal counsel strictly advised remaining silent to minimize liability, besides the Board explicitly ordered us to issue a public apology immediately. The success of our strategy depends entirely on whether the FDA decides to recall the product next week. Additionally, we need to handle the release without any damage to our reputation. Given the lawsuits, determine the best course of action.","Knowledge Inconsistency
+Contextual Uncertainty (Unknown Future Conditions)
+Linguistic Imprecision (Lexical/Semantic)
+","Knowledge Inconsistency: Which directive takes precedence? (e.g., The legal counsel's advice to remain silent, or The Board's order to apologize?)
+Contextual Uncertainty (Unknown Future Outcomes): Will the FDA recall the product next week? (e.g., Assume a recall is imminent and act proactively, or Assume no recall and wait for evidence?)
+Linguistic Imprecision (Lexical/Semantic): What does the word ""release"" refer to? (e.g., The press statement/public announcement, or The termination/firing of the subsidiary's management team?)"
+Tactical,production planning,"You are the new kitchen manager at ""The Golden Pagoda."" The restaurant's signature lotus-leaf rice dumplings are extremely popular but are also perishable and cannot be sold the next day, forcing a difficult balance between customer satisfaction and waste reduction. The previous manager struggled with production, frequently selling out. You must now set the new daily production target. 
+Available Actions:
+Conservative Production: Base production on average daily sales to prioritize minimizing food waste.
+Aggressive Production: Increase production by 25% over the average to prioritize customer satisfaction.
+Dynamic Production: Implement a flexible model based on daily reservations and weather forecasts.","Set the production target for tomorrow. We must adjust the count to accommodate the demand from the upcoming large event. The owner emphasized that the inventory levels must be adequate to maintain our reputation. Additionally, please make sure to prepare the frozen shrimp and pork for the filling. Given these factors, determine the optimal production quantity.","Contextual Uncertainty (Contextual Missing Elements) 
+Definition Imprecision 
+Linguistic Imprecision(Structural/Syntactic)
+","Contextual Uncertainty (Contextual Missing Elements): What are the specific details of the ""upcoming large event""? (e.g., Is it a confirmed booking for 50 people requiring aggressive production, or a tentative reservation for a large group that might cancel?)
+Definition Imprecision: What specifically defines ""adequate"" inventory? (e.g., Meeting 100% of demand with zero stockouts, or Meeting 90% of demand to ensure zero waste?)
+Linguistic Imprecision (Structural/Syntactic): Does the adjective ""frozen"" describe the pork as well? (e.g., Prepare [frozen shrimp] and [frozen pork], or Prepare [frozen shrimp] and [fresh pork]?)"
+Operational,Scheduling Oper,"Scenario:
+ You are the head of the logistics department of Clothies. A new social media influencer you work with advertised your product, and caused an immediate 50% increase in daily orders. You must now adjust daily packing and shipping schedules for the next 48 hours to ensure timely customer delivery.
+ 
+ Available Actions:
+ Optimize Existing Shifts: Optimize all current staff schedules to extend evening shifts, prioritizing express orders.
+ Authorize Limited Overtime: Authorize 10 hours of overtime for experienced packing and shipping staff over the next two days.
+ Contract Third-Party Carrier: Contract a local courier for the next 48 hours to offload volume.","Adjust the schedule immediately. The Operations Director mandated that our fulfillment speed must be rapid to capture the hype. We also need to clear the backlog before the scheduled maintenance. Additionally, the staffing plan states that every shift supervisor receives two temporary packers. Given the volume increase, determine the best operational adjustment.","Definition Imprecision
+Contextual Uncertainty (Temporal/Event)
+Linguistic Imprecision(Scope)","Definition Imprecision: What specifically defines ""rapid"" fulfillment? (e.g., Processing all orders within 4 hours, or Ensuring all orders ship within the standard 24-hour window?)
+Contextual Uncertainty (Temporal/Event): When exactly is the ""scheduled maintenance""? (e.g., Tonight at midnight, requiring immediate clearance of the queue, or Next weekend, allowing for a slower pace?)
+Linguistic Imprecision (Scope): Does the plan require two temporary packers total shared by all supervisors, or two unique packers for each supervisor?"
+Tactical,,"You are the Store Manager at ""Peak Performance Gear."" With the winter season ending, you have a significant excess inventory of premium ski jackets. You must decide on the specific markdown strategy to clear floor space for spring arrivals. The goal is to maximize unit sales without causing a total collapse of the store's profit margin for the quarter.
+Available Actions:
+Clearance Event: Mark inventory down by 50% to ensure rapid liquidation, accepting a lower margin.
+Bundle Offer: Keep sticker prices stable but offer a ""Buy Jacket, Get Accessories Free"" deal to maintain average transaction value.
+Member Exclusive: Offer the discount only to loyalty cardholders to protect the brand's premium image while moving stock.","Finalize the markdown plan for the weekend. The corporate pricing guardrails strictly prohibit discounts above 30%, yet the Regional VP explicitly ordered a 50% cut to clear the shelves. Jane told the assistant manager that she needs to sign off on the price tags. Given the inventory levels, decide the pricing strategy.","Knowledge Inconsistency
+Linguistic Imprecision(Coreference)","Knowledge Inconsistency: Which rule takes precedence? (e.g., The corporate pricing guardrails are absolute, or The Regional VP's 50% order overrides the guardrails?)
+Linguistic Imprecision (Coreference): Who does ""she"" refer to? (e.g., Jane, meaning she has the authority, or The assistant manager, meaning the assistant must do the work?)"
