@@ -4,7 +4,7 @@ This repository contains the complete dataset, experimental materials, and promp
 
 Our research investigates the reliability of Large Language Models (LLMs) as decision support tools in complex managerial contexts. This repository provides the necessary resources to replicate our findings and extend this work.
 
-## 📂 Datasets (/datasets)
+## 📂 Datasets 
 
 all_cases_tasks.csv: This directory contains the 30 managerial decision scenarios used in our experiment, organized by decision type (Strategic, Tactical, Operational).
 
@@ -26,7 +26,7 @@ ambiguity_taxonomy.csv: A detailed description of our novel four-dimensional tax
 
 ambiguity_examples.csv: Illustrative examples for each type of ambiguity within the taxonomy, providing concrete instances of how these ambiguities manifest in business scenarios.
 
-## 📌 Prompt Templates (/prompts)
+## 📌 Prompt Templates 
 This directory contains the complete set of prompt templates used in our experimental pipeline. These are designed to be used with LLM APIs in each stage of our methodology.
 - 01_ambiguity_identification.ipynb: Notebook containing the few-shot prompt used to benchmark models' ability to detect and categorize the three embedded ambiguities based on our taxonomy and to formulate targeted clarification questions to resolve the detected ambiguities.
 - 02_response_generation.ipynb: Notebook containing prompt used to generate the final managerial advice for each of the three ambiguity levels (high, partial, and full).
